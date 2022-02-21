@@ -1,0 +1,396 @@
+Day 9
+
+1. Fix the bugs in below snippet.
+
+Given Code:
+
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+Rectified Code:
+
+<html lang="en">
+  <head>
+    <title>Document guvi</title>
+  </head>
+  <body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div>Guvi Geek Network</div>
+  </body>
+</html>
+
+2. Try the below one.
+
+Given Code:
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+Answer: This HTML code does not function properly as the tags are misplaced in the document.
+
+3. Design a contact us form with all fields as required.
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div>
+      <form>
+        <label>NAME<sup style="color: red">*</sup> : </label>
+        <input type="text" placeholder="Your Name" required />
+        <br /><br />
+        <label>EMAIL<sup style="color: red">*</sup> : </label>
+        <input type="email" placeholder="Your Email" required />
+        <br /><br />
+        <label>MESSAGE<sup style="color: red">*</sup> : </label>
+        <textarea>Enter your message</textarea>
+        <br /><br />
+        <label>ADDITIONAL DETAILS : </label>
+        <textarea>Additional details</textarea>
+        <br /><br />
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+4. Use certain HTML elements to display the following in a HTML page.
+
+Code: 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li>Programming Language
+        <ul>
+          <li>
+            Javascript
+            <ol type="a">
+              <li>Angular</li>
+              <li>React</li>
+              <li>Vue.js</li>
+            </ol>
+          </li>
+
+          <li>
+            Python
+            <ol type="a">
+              <li>Django Framework</li>
+              <li>Flask Framework</li>
+            </ol>
+          </li>
+
+          <li>
+            Java
+            <ol type="a">
+              <li>Spring</li>
+              <li>Maven</li>
+              <li>Hibernate</li>
+            </ol>
+          </li>
+          </ul>
+          
+          <li>Database
+            <ul>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Cansandra</li>
+            </ul>
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </body>
+</html>
+
+5. Create an element that helps you to open the https://google.com in separate new tab.
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <a href="https://google.com" target="_blank">Google</a>
+    </div>
+  </body>
+</html>
+
+6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+Code: 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form>
+        <label>NAME : </label>
+        <input type="text" placeholder="Your Name" required /><br /><br />
+        <label>EMAIL : </label>
+        <input type="email" placeholder="Your Email" required /><br /><br />
+        <label>SEX : </label>
+        <input type="radio" />Male <input type="radio" />Female<br /><br />
+        <label>EMPLOYEE TYPE : </label>
+        <input type="radio" />Salaried <input type="radio" />Own Business<br /><br />
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form>
+        <h2 style="color: red">
+          Yes! I want to subscribe to <em>Mag-O-Zine</em>
+        </h2>
+        <label>First Name</label><br />
+        <input type="text" placeholder="" required /><br /><br />
+        <label>Last Name</label><br />
+        <input type="text" placeholder="" required /><br /><br />
+        <label>Address</label><br />
+        <input type="text" placeholder="" required /><br /><br />
+        <label>City</label><br />
+        <input type="text" placeholder="" required /><br /><br />
+        <label>State</label><br />
+        <input type="text" placeholder="" required /><br /><br />
+        <label>Subscribe for: </label>
+        <input type="checkbox" />1 year ($19.95) <input type="checkbox" />2
+        years ($35.00)<br /><br />
+        <label>Send me more information about:</label><br />
+        <input type="checkbox" />Computer_Zine<br />
+        <input type="checkbox" />Fishing_Zine<br />
+        <input type="checkbox" />Cat_O_Zine
+      </form>
+    </div>
+  </body>
+</html>
+
+8. Use the table tag to design given image.
+
+Code:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h2 {
+        text-align: center;
+      }
+      table {
+        border-style: none;
+        width: 50%;
+        text-align: center;
+      }
+      td,
+      th,
+      tr {
+        border: 0.5px solid black;
+      }
+      .center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Health Chart</h2>
+      <table cellspacing="0" cellpadding="10" class="center">
+        <tr>
+          <th rowspan="2">State of Health</th>
+          <th colspan="2">Fasting Value</th>
+          <th>After Eating</th>
+        </tr>
+        <tr>
+          <th>Minimum</th>
+          <th>Maximum</th>
+          <th>2 hours after eating</th>
+        </tr>
+        <tr>
+          <td>Healthy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>Less than 140</td>
+        </tr>
+        <tr>
+          <td>Pre-Diabetes</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to200</td>
+        </tr>
+        <tr>
+          <td>Diabetes</td>
+          <td>More than 126</td>
+          <td>N/A</td>
+          <td>More than 200</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+
+9. Write HTML input tags snippet to show default values for all form elements.
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label>Name : </label>
+    <input type="text" value="Bharath" /><br /><br />
+
+    <label>Sex : </label>
+    <input type="radio" checked="true" value="male" />Male
+    <input type="radio" value="female" />Female<br /><br />
+
+    <label>Age : </label>
+    <select name="age">
+      <option value="18">18</option>
+      <option value="19" selected>19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+    </select><br /><br />
+
+    <label>Area of Interest : </label>
+    <input type="checkbox" checked="true" />Full-Stack Development
+    <input type="checkbox" />Python Development
+    <input type="checkbox" checked="true" />UI/UX Design <br /><br />
+
+    <label>More details about you</label><br />
+    <textarea rows="5" cols="30">This is defualt text</textarea><br /><br />
+
+    <label>Button : </label>
+    <input type="button" value="Button" />
+  </body>
+</html>
+
+10. In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"
+
+Code: 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p><mark>HTML & CSS is awesome</mark></p>
+  </body>
+</html>
+
+11. Create an HTML page, which should contain all types of input elements.
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label>Button : </label><input type="button" /><br /><br />
+    <label>Chech Box : </label><input type="checkbox" /><br /><br />
+    <label>Color : </label><input type="color" /><br /><br />
+    <label>Date : </label><input type="date" /><br /><br />
+    <label>Date and Time : </label><input type="datetime" /><br /><br />
+    <label>Date and Time (Local) : </label><input type="datetime-local" /><br /><br />
+    <label>Email : </label><input type="email" /><br /><br />
+    <label>File : </label><input type="file" /><br /><br />
+    <label>Hidden : </label><input type="hidden" /><br /><br />
+    <label>Image : </label><input type="image" /><br /><br />
+    <label>Month : </label><input type="month" /><br /><br />
+    <label>Number : </label><input type="number" /><br /><br />
+    <label>Password : </label><input type="password" /><br /><br />
+    <label>Range : </label><input type="range" /><br /><br />
+    <label>Reset : </label><input type="reset" /><br /><br />
+    <label>Search : </label><input type="search" /><br /><br />
+    <label>Submit : </label><input type="submit" /><br /><br />
+    <label>Tel : </label><input type="tel" /><br /><br />
+    <label>Text : </label><input type="text" />
+  </body>
+</html>
+
