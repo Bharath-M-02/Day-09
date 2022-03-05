@@ -1,0 +1,62 @@
+body {
+  margin: 110px 360px;
+  overflow-x: hidden;
+  min-width: 100%;
+}
+
+.container {
+  width: 500px;
+  height: 335px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.half-line,
+.full-line,
+.small-line,
+.subscribe,
+.more-info {
+  margin: 5px 10px 10px 10px;
+  float: left;
+}
+
+.half-line > input,
+.full-line > input,
+.small-line > input {
+  border-style: hidden;
+  border-bottom: 2px solid black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.half-line > input {
+  width: 225px;
+}
+
+.full-line > input {
+  width: 475px;
+}
+
+.small-line > input {
+  width: 142px;
+}
+
+.subscribe,
+.more-info {
+  font-weight: bold;
+  letter-spacing: 0.1px;
+}
+
+input:focus,
+textarea {
+  outline: none;
+}
