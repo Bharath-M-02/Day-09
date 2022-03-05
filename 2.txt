@@ -1,0 +1,20 @@
+2. Try the below one.
+
+Given Code:
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+Answer: This HTML code does not function properly as the tags are misplaced in the document.
